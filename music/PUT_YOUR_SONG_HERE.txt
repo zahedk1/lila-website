@@ -1,0 +1,8 @@
+Put your song file here.
+
+index.html currently expects: music/tayc-song.mp3
+(see the <audio> element in the "MUSIC PLAYER" section of index.html)
+
+Rename the file or update that path to match — either works.
+Note: no actual audio file is included here since songs are copyrighted;
+add your own legally-owned copy of the track.

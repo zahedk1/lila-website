@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>For Lila</title>
+
+
+<!-- Google Fonts: Playfair Display (romantic serif headings) + Quicksand (soft rounded body text) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating hearts drawn on this canvas by script.js — purely decorative -->
+  <canvas id="hearts-canvas"></canvas>
+
+  <!-- STICKY COUNTDOWN BAR -->
+  <div class="countdown-bar">
+    <span class="countdown-label">Married in:</span>
+
+    <span class="countdown-value" id="countdown-value">Soon 💍</span>
+  </div>
+
+  <!-- ============================== HERO ============================== -->
+  <section id="hero" class="section hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">a little something for</p>
+      <h1 class="hero-name">Lila "My Love" Boulaouche</h1>
+      <p class="hero-sub">from your very own Zahed, across every mile that ever stood between us</p>
+      <button class="scroll-cue" onclick="document.getElementById('story').scrollIntoView({behavior:'smooth'})">
+        Begin
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+          <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ============================== STORY ============================== -->
+  <section id="story" class="section story">
+    <div class="story-text reveal">
+      <p>Once, in a life that felt too ordinary to hold something this big, a boy met a girl who would quietly rearrange everything he thought he knew about love.</p>
+      <p>He didn't know it yet — not on that first day — but somewhere between her laugh and the way she carried her worries like they weren't allowed to weigh her down, he had already started falling.</p>
+      <p>Time passed. Miles got in the way. Distance did what distance always does — it turned small silences into big questions, and small misunderstandings into fights neither of them really wanted to have.</p>
+      <p>But through all of it, one thing never once wavered: <span class="story-highlight">her</span>.</p>
+    </div>
+  </section>
+
+
+  <section id="timeline" class="section timeline">
+    <h2 class="section-title">Our Chapters</h2>
+    <div class="timeline-track">
+
+      <div class="timeline-item">
+        <div class="timeline-card reveal">
+          <h3>Chapter One — How It Started</h3>
+          <img src="images/First_Date_Lila.jpeg" alt="How we met" class="timeline-photo" />
+        </div>
+        <div class="timeline-dot"></div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-card reveal">
+          <h3>Chapter Two — The First Time I Knew</h3>
+          <img src="images/First_Date_Lila.jpeg" alt="A memory" class="timeline-photo" />
+        </div>
+        <div class="timeline-dot"></div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-card reveal">
+          <h3>Chapter Three — before Through the Distance</h3>
+          <img src="images/Bern Date.jpeg" alt="A memory" class="timeline-photo" />
+        </div>
+        <div class="timeline-dot"></div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-card reveal">
+          <h3>Chapter Four — What's Next</h3>
+          <img src="images/Kiss Zahed 1.jpeg" alt="A memory" class="timeline-photo" />
+        </div>
+        <div class="timeline-dot"></div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="gallery" class="section gallery">
+    <h2 class="section-title">Moments I Keep</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal"><img src="images/Bern Date 2.jpeg" alt="A memory from Bern"></div>
+      <div class="gallery-item reveal"><img src="images/Cute Couple Zahed Lila.jpeg" alt="A favorite photo together"></div>
+      <div class="gallery-item reveal"><img src="images/Cute Lila.jpeg" alt="Lila smiling"></div>
+      <div class="gallery-item reveal"><img src="images/Cute Zahed Lila.jpeg" alt="A sweet moment together"></div>
+      <div class="gallery-item reveal"><img src="images/Date last one old money.jpeg" alt="A date together"></div>
+      <div class="gallery-item reveal"><img src="images/Favorite.jpeg" alt="A favorite memory"></div>
+      <div class="gallery-item reveal"><img src="images/Matching.jpeg" alt="Matching together"></div>
+      <div class="gallery-item reveal"><img src="images/Normal_Date.jpeg" alt="A normal date together"></div>
+    </div>
+  </section>
+
+  <!-- ============================== LOVE LETTER ============================== -->
+  <section id="letter" class="section letter">
+    <h2 class="section-title">A Letter, Written Slowly</h2>
+    <div class="letter-card">
+      <p class="letter-story reveal">So here is his letter. Not written for a story this time, but for her — the real one, the only one:</p>
+
+      <p class="reveal">Dear Lila,</p>
+      <p class="reveal">my dearest of all, the woman that bears all my worries with me, to the woman that gives me strength when I am sorrow, to the woman that is her most feminine, to my woman, my best friend, my soulmate and my one ultimative love —</p>
+      <p class="reveal">there are miles between us, and time zones that steal our mornings and our nights, and still — none of it has ever been louder than what I feel for you.</p>
+      <p class="reveal">I know the distance has not been kind to us. I know it has turned small misunderstandings into arguments, and silence into worry, and made simple things — a hug, a hand to hold, a quiet evening — feel impossible when we needed them most. I am sorry for every fight that was really just distance wearing a different mask.</p>
+      <p class="reveal">But I need you to know: through every mile, you have been my most constant thing. My peace. My favorite person to tell everything to, and my favorite person to tell nothing to — because with you, even silence feels safe.</p>
+      <p class="letter-signature reveal">— Yours, always. Zahed</p>
+    </div>
+  </section>
+
+  <!-- ============================== REASONS (FLIP CARDS) ============================== -->
+  <!-- REPLACE: each card's front number is just decorative — put your real
+       reason on the back (.flip-back). Click or tap a card to flip it. -->
+  <section id="reasons" class="section reasons">
+    <h2 class="section-title">Reasons, Among Thousands</h2>
+    <div class="flip-grid">
+
+      <div class="flip-card" tabindex="0">
+        <div class="flip-inner">
+          <div class="flip-front">01</div>
+          <div class="flip-back">I love you for your kindness and patience.</div>
+        </div>
+      </div>
+
+      <div class="flip-card" tabindex="0">
+        <div class="flip-inner">
+          <div class="flip-front">02</div>
+          <div class="flip-back">I love you for your unwavering support and encouragement.</div>
+        </div>
+      </div>
+
+      <div class="flip-card" tabindex="0">
+        <div class="flip-inner">
+          <div class="flip-front">03</div>
+          <div class="flip-back">I love you for your sense of humor and the joy you bring into my life.</div>
+        </div>
+      </div>
+
+      <div class="flip-card" tabindex="0">
+        <div class="flip-inner">
+          <div class="flip-front">04</div>
+          <div class="flip-back">I love you for your intelligence and the way you challenge me to grow.</div>
+        </div>
+      </div>
+
+      <div class="flip-card" tabindex="0">
+        <div class="flip-inner">
+          <div class="flip-front">05</div>
+          <div class="flip-back">I love you for your creativity and the beauty you add to the world.</div>
+        </div>
+      </div>
+
+      <div class="flip-card" tabindex="0">
+        <div class="flip-inner">
+          <div class="flip-front">06</div>
+          <div class="flip-back">I love you, because you are yourself.</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="music" class="section music">
+    <h2 class="section-title">A Song for You</h2>
+    <div class="music-player" id="music-player">
+      <div class="music-heading">
+        <span class="music-kicker">For the miles between us</span>
+        <p>Press play, then stay a little while.</p>
+      </div>
+      <audio id="audio" loop></audio>
+      <div class="music-controls">
+        <button id="play-btn" aria-label="Play song">▶</button>
+        <div class="music-info" id="music-info">
+          <strong>N y pense plus</strong>
+          <span>Tayc</span>
+        </div>
+        <div class="eq-bars"><span></span><span></span><span></span></div>
+      </div>
+      <div class="music-track-list" aria-label="Choose a song">
+        <button class="music-track is-selected" type="button" data-src="music/Tayc - N y pense plus.mp3" data-title="N y pense plus" data-artist="Tayc">
+          <span class="track-number">01</span><span><strong>N y pense plus</strong><small>Tayc</small></span>
+        </button>
+        <button class="music-track" type="button" data-src="music/Raindance _best part_ (Dave ft tems) - (320 Kbps).mp3" data-title="Raindance" data-artist="Dave ft. Tems">
+          <span class="track-number">02</span><span><strong>Raindance</strong><small>Dave ft. Tems</small></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="finale-cta" class="section finale-cta">
+    <p class="finale-text reveal">There is one more thing waiting for you.</p>
+    <a href="flower.html" class="finale-button">Open it</a>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

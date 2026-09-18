@@ -1,0 +1,8 @@
+Put your photos here.
+
+The site currently expects these filenames (see index.html):
+lila1.jpg, lila2.jpg, lila3.jpg, lila4.jpg   -> used in the Timeline section
+lila5.jpg through lila10.jpg                 -> used in the Gallery section
+
+You can rename them however you like — just make sure the src="images/..."
+paths in index.html match whatever you name your files.
